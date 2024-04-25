@@ -8,7 +8,7 @@ import linkedInIcon from '../images/linkedin_icon.png';
 export default function Navigation() {
     return (
         <header>
-    
+    <div className="inner-wrapper-nav">
     {/* LOGO */ }
 
         <div class="brand">
@@ -52,6 +52,7 @@ export default function Navigation() {
 
             </ul>
         </nav>
+        </div>
     </header>
     )
 }

@@ -71,6 +71,7 @@ export default function AllProjects() {
   return (
     <>
       <div className="projects">
+        <div className="projects-inner-wrapper">
         <h1 className="section_title" data-aos="fade-up">Projects</h1>
 
         <ul className="tags_list" data-aos="fade-up">
@@ -111,6 +112,7 @@ export default function AllProjects() {
               />
             );
           })}
+        </div>
         </div>
       </div>
     </>

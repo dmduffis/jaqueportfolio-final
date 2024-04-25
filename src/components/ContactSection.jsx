@@ -61,7 +61,8 @@ export default function ContactSection() {
 
    
     return (
-        <div className='contact_wrapper'>
+        <div className='contact_section'>
+            <div className='contact_section_inner_wrapper'>
             <div className='contact_info' data-aos="fade-up">
                 <h1>Get in Touch <img src={msgIcon} className='title_icon' alt="" /></h1>
                 <h3>Let's do something great together!</h3>
@@ -84,6 +85,7 @@ export default function ContactSection() {
                     <textarea label="message" placeholder='Message' name="message"></textarea>
                     <input type="submit" value="Send »"/>
                 </form>
+            </div>
             </div>
         </div>
     )

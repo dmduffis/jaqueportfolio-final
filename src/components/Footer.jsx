@@ -7,6 +7,8 @@ import whatsAppIcon from '../images/whatsapp_icon.png';
 export default function Footer() {
     return (
         <footer className='footer'>
+
+            <div className='footer-inner-wrapper'>
     
     {/* LOGO */ }
 
@@ -26,6 +28,7 @@ export default function Footer() {
                 <li class="social_footer"><a className="copyright" href="https://wa.me/5511965801375" target="_blank" rel="noopener noreferrer"><img src={whatsAppIcon} alt="WhatsApp" /> +55 11 96580-1375</a></li>
 
             </ul>
+        </div>
         </div>
     </footer>
     )

@@ -17,7 +17,8 @@ export default function FeaturedProjects() {
     return (
         <>
         
-        <div className="projects">    
+        <div className="projects">   
+        <div className='projects-inner-wrapper'>
         <h1 className="section_title" data-aos="fade-up">Featured Work</h1>
         <h1 className="section_subtitle" data-aos="fade-up">Some of my latest projects</h1>
         
@@ -34,6 +35,7 @@ export default function FeaturedProjects() {
                     )
                 })
                 }
+            </div>
             </div>
         </div>
         </>

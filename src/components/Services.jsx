@@ -16,15 +16,16 @@ export default function Services() {
 
     return (
         
-        <div class="services-wrapper">
+        <div class="services-section">
+            <div className='services-section-inner-wrapper'>
 
         {/* PROFILE PHOTO */}
-        <div class="services-profile" data-aos="fade-right">
+        <div className="services-profile" data-aos="fade-right">
             <img src={profileImgServices} alt= "headshot of architect Jaqueline Lima" />
         </div>
 
         {/* SERVICES DESCRIPTION */}
-            <div class="services-description" data-aos="fade-left">
+            <div className="services-description" data-aos="fade-left">
                 <h1 data-aos="fade-left">Services</h1>
                 <h3>I'm ready to partner with you 🫱🏻‍🫲🏼</h3>
                 
@@ -43,7 +44,7 @@ export default function Services() {
                 </ul>
                 </div>
             </div>
-
+            </div>
         </div>
     )
 }
