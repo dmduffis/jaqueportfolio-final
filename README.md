@@ -27,7 +27,7 @@
 ## Deliver:
 
 - **Technology Stack:**
-  - Utilize Next.js for building a responsive website, ensuring fast performance and enhanced SEO capabilities.
+  - Utilize React for building a responsive website, ensuring fast performance and enhanced SEO capabilities.
 
 - **English-Based Website:**
   - Create an intuitive navigation system showcasing projects in English, providing a seamless browsing experience for US and European visitors.
