@@ -35,5 +35,3 @@
 - **Contact Form Integration:**
   - Implement a contact form and WhatsApp with user-friendly features to receive direct messages from potential clients, enabling efficient communication and client acquisition.
 
-- 
-
